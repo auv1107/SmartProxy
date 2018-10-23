@@ -153,10 +153,10 @@ public class MainActivity extends Activity implements
     }
 
     private void scanForConfigUrl() {
-        new IntentIntegrator(this)
-                .setResultDisplayDuration(0)
-                .setPrompt(getString(R.string.config_url_scan_hint))
-                .initiateScan(IntentIntegrator.QR_CODE_TYPES);
+//        new IntentIntegrator(this)
+//                .setResultDisplayDuration(0)
+//                .setPrompt(getString(R.string.config_url_scan_hint))
+//                .initiateScan(IntentIntegrator.QR_CODE_TYPES);
     }
 
     private void showConfigUrlInputDialog() {
